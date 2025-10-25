@@ -22,9 +22,6 @@ const TestTimeline = () => {
 
     }
 
-
-
-
     useGSAP(()=>{
         const t1 = gsap.timeline({
             defaults: {duration: 2, ease: "power1.inOut"},

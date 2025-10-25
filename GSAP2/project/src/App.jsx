@@ -4,6 +4,7 @@ import GsapFrom from "./pages/gsapfrom";
 import GsapFromTo from "./pages/gsapfromto";
 import GsapTimeline from "./pages/gsaptimeline";
 import TestTimeline from "./pages/gsaptimeline2";
+import GsapStagger from "./pages/gsapstagger";
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/ft" element={<GsapFromTo/>}  />
         <Route path="/tl" element={<GsapTimeline/>}  />
         <Route path="/tt" element={<TestTimeline/>}  />
+        <Route path="/gs" element={<GsapStagger/>}  />
       </Routes>
     </Router>
       
