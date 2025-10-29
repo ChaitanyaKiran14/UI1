@@ -5,12 +5,14 @@ import GsapFromTo from "./pages/gsapfromto";
 import GsapTimeline from "./pages/gsaptimeline";
 import TestTimeline from "./pages/gsaptimeline2";
 import GsapStagger from "./pages/gsapstagger";
+import STBasics from "./pages/gsapscrolltriggerbasics";
+import STScrub from "./pages/gsapscrolltrigger";
+import GsapPinning from "./pages/gsapscrollpinning";
 
 export default function App() {
 
   return (
     <div>
-      <p>working</p>
       <Router>
       <Routes>
         <Route path="/to" element={<GsapTo/>}  />
@@ -19,6 +21,9 @@ export default function App() {
         <Route path="/tl" element={<GsapTimeline/>}  />
         <Route path="/tt" element={<TestTimeline/>}  />
         <Route path="/gs" element={<GsapStagger/>}  />
+        <Route path="/st" element={<STBasics/>}  />
+        <Route path="/sts" element={<STScrub/>}  />
+        <Route path="/stp" element={<GsapPinning/>}  />
       </Routes>
     </Router>
       
